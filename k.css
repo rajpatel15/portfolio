@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(212, 209, 209);
+    width: 434px;
+    font-family: "Fira Sans", sans-serif;
+    height: 132vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: #1f1b1b;
+    width: 85vw;
+}
+
+.container {
+    display: flex;
+    color: #f1eded;
+}
+
+.infoContainer {
+    background-color: transparent;
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    font-family: "Source Code Pro", monospace;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.hello {
+    font-size: 60px;
+
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    color: #2b9ec2;
+    font-family: "Fira Sans", sans-serif;
+
+}
+
+.about {
+    font-size: 30px;
+}
+
+.moreabout {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Fira Sans", sans-serif;
+
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: dodgerblue;
+    background-color: white;
+
+}
+
+
+.devpic img {
+    height: 58vh;
+}
+
+
+
+/*-----ABOUT----*/
+ 
+*{
+
+    box-sizing: border-box; 
+    line-height: 1.5;
+    font-family:"Fira Sans", sans-serif;
+ }
+ body{
+     width: 100%;
+     min-height: 100vh;
+     background-color: #ddd;
+ }
+ .about-us{
+     width: 100%;
+ }
+ .about-us h1{
+     text-align: center;
+     font-size: 40px;
+     color: #2b9ec2;
+     text-transform: uppercase;
+     letter-spacing: 1.5px;
+     margin-top: 50px;
+ 
+ }
+ .about-us h1::after{
+     content: "";
+     height: 5px;
+     width: 200px;
+     background-color: #2b9ec2;
+     border-radius: 10px; ;
+     display: block;
+     margin: auto;
+ }
+ .wrapper{
+     padding: 0px 60px;
+     margin: 60px auto;
+ }
+ .content{
+      width: 60%;
+      float: left;
+      text-align: left;
+      padding: 0px 30px;
+ }
+ .content h3{
+     color: #222;
+     letter-spacing: 1px;
+ }
+ .content  p{
+     font-family:"Fira Sans", sans-serif;
+     font-size: 17px;
+     color: #3d3d3d;
+     margin-top: 20px;
+ 
+ }
+ .content .button{
+     margin-top: 40px;
+ }
+ .content .button a{
+     color: #fff;
+     background-color: #2b9ec2;
+     border: 1px solid #2b9ec2;
+     padding: 10px 34px;
+     text-decoration: none;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+ }
+ .content .button a:hover{
+     background-color: white;
+     color: #2b9ec2;
+ }
+ .content .social{
+     margin-top: 30px;
+     margin-left: 15px;
+ }
+ .content .social a{
+     text-decoration: none;
+     color: #222;
+     font-size: 25px;
+ }
+ .content .social a:hover{
+     color: #2b9ec2;
+     transition: 1s ease;
+     
+ }
+ .content .social i{
+     height: 40px;
+     width: 40px;
+     background-color: #fff;
+     border: 1px solid #222;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 40px ;
+ }
+ .image-section{
+     width: 40%;
+     float:right;
+     padding: 0px 30px;
+ }
+ .image-section img{
+     max-width: 100%;
+     height: auto;
+ }
+       
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    }
+
+    body{ 
+        width: 100%;
+         min-height: 100vh;
+      
+          font-family: 'Poppins', sans-serif;
+          } 
+      section.services{
+        width: 100%;
+          background: #1f1b1b;
+          padding-top: 30px;
+      
+          }
+          #abc,#bcd,#cde,#def,#efg,#fgh,#ghi,#hij{
+              color: #f1eded;
+          }
+          .services-head{
+          color: #2b9ec2;;
+          text-align: center;
+          margin-bottom: 10px;
+          line-height: 10px;
+          color: #2b9ec2;
+          }
+          .services-head + p{
+          color: #2b9ec2;
+          font-family: 'Lato', sans-serif;
+          margin-bottom: 1rem;
+          text-align: center;
+          margin-bottom: 6rem;
+          font-weight: 400;
+          }   
+          .card img{
+        
+          width: 50px;
+          background: #f1eded;
+          }
+          
+          section.services .card-grid .card{
+          background: #1f1b1b;
+          padding: 3rem 2rem;
+          position: relative;
+          text-align: center;
+          transition: all .2s ease;
+          }
+          section.services .card-grid .card img{
+          position: absolute;
+          top: -1.5rem;
+          left: 50%;
+          transform: translateX(-50%);
+          color: #f1eded;
+          }
+          section.services .card-grid .card h2{
+          font-weight: 600;
+          font-size: 1.2rem;
+          margin-bottom: 0.5rem;
+          }
+          section.services .card-grid .card p{
+          font-family: 'Lato', sans-serif;
+          color: #f1eded;
+          line-height: 2;
+          }
+          section.services .card-grid .card:hover{
+          background: #1f1b1b;
+          }
+          section.services .card-grid .card:hover h2{
+          color: #1f1b1b;
+          }
+          section.services .card-grid .card:hover p{
+          color: #1f1b1b;
+          }
+      
